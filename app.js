@@ -604,8 +604,7 @@ app.post('/consultarOrden' , (req , res) =>{
 
 });
 
-app.listen(8000 , ()=>{
-
-    console.log('Puerto Escondido y Puero Vallarta');
-
+const port=process.env.PORT || 8000;
+app.listen(port,()=>{
+    console.log("Server on port "+port);
 });
