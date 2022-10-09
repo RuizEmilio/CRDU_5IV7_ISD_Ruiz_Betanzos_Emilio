@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styleBuscador.css">
+    <title>BUSCADOR</title>
+</head>
+<body>
+    <header>
+        <h1>ASEGURADORAS RUIZ</h1>
+    </header>
+    <form action="/consultarOrden" method="post">
+        <table>
+            <caption><h2>INGRESE EL ID DE SU ORDEN</h2></caption>
+            <tr>
+                <td><input type="text" name = "claveOrden"></td>
+            </tr>
+        </table>
+        <input id = 'consultaOrden' type="submit" value = "Consulte">
+    </form>
+    <div id = 'contenedorLink'>
+        <a href="http://localhost:8000/">
+            <b>VOLVER A LA REGISTRADORA</b>
+        </a>
+    </div>
+    <footer>
+        <b>EMILIO RUIZ BETANZOS || 5IV7</b>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    
+    background-image: url("../JPG/TACHE.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+body::before{
+    content : "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(315deg, rgb(204, 242, 229), rgb(204, 242, 229));
+    opacity: .5;
+    z-index: -1;
+}
+
+header{
+    
+        background-color: rgb(33, 101, 78);
+        padding: 2rem;
+    
+}
+
+div{
+
+    margin-left: 425px;
+    margin-top: 90px;
+    background-color: rgba(33, 101, 78, 0.64);
+    width: 700px;
+    padding: .5rem;
+    border: 10px solid rgb(33, 101, 78);
+    margin-bottom: 320px;
+    padding-left: 2rem;
+
+}
+
+footer{
+    
+    background-color: rgb(33, 101, 78);
+    padding: 1.5rem;
+
+}
+
+a{
+    
+    color: green;
+    padding-bottom: 10px;
+
+}

@@ -1,0 +1,94 @@
+*{
+
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    background-image: url("../JPG/SUBURBAN.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+body::before{
+    content : '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(315deg, rgb(204, 242, 229), rgb(204, 242, 229));
+    opacity: .5;
+    z-index: -1;
+}
+
+header{
+
+    background-color: rgb(33, 101, 78);
+    padding: 2rem;
+
+}
+
+footer{
+
+    background-color: rgb(33, 101, 78);
+    padding: 1.5rem;
+
+}
+
+form{
+
+    margin-left: 425px;
+    margin-top: 90px;
+    background-color: rgba(33, 101, 78, 0.64);
+    width: 675px;
+    padding: .5rem;
+    border: 10px solid rgb(33, 101, 78);
+
+}
+
+table{
+
+    padding: 2rem;
+
+}
+
+#tablaVehiculo{
+
+    margin-left: 90px;
+
+}
+
+td{
+
+    padding: 1rem;
+
+}
+
+#registrarOrden{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 16.5rem;
+    padding: .5rem;
+    color: black;
+    background-color: rgb(76, 164, 135);
+    border: 2px solid rgb(76, 164, 135);
+
+}
+
+#contenedorLink{
+
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+
+}
+
+a{
+
+    color: green;
+
+}

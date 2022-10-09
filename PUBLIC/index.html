@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styleIndex.css">
+    <title>DATABASE NODE</title>
+</head>
+<body>
+    <header>
+        <h1>ASEGURADORAS RUIZ</h1>
+    </header>
+    <form action="/agregarOrden" method = "post" id = "registrador">
+        <table id = 'contenedorRegistroOrden'>
+            <caption><h2>DATOS DEL CLIENTE</h2></caption>
+            <tr>
+                <th>NOMBRE</th>
+                <th>NUMERO</th>
+                <th>DIRECCION</th>
+            </tr>
+            <tr>
+                <td><input type="text" name = "nombreCliente"></td>
+                <td><input name = "numeroCliente"></td>
+                <td><input type="text" name = "direccionCliente"></td>
+            </tr>
+        </table>
+        <table id = 'tablaVehiculo'>
+            <caption><h2>DATOS DEL VEHICULO</h2></caption>
+            <tr>
+                <th>MODELO</th>
+                <th>MARCA</th>
+            </tr>
+            <tr>
+                <td><input type="text" name = "modeloVehiculo"></td>
+                <td><input type="text" name = "marcaVehiculo"></td>
+            </tr>
+        </table>
+        <input id = 'registrarOrden' type="submit" value = 'Registrar Orden'>
+    </form>
+    <div id = 'contenedorLink'>
+        <a href="buscador.html">
+            <b>SI YA TIENES UNO O MAS REGISTROS, BUSCALOS AQUI</b>
+        </a>
+    </div>
+    <footer>
+        <b>EMILIO RUIZ BETANZOS || 5IV7</b>
+    </footer>
+</body>
+</html>
